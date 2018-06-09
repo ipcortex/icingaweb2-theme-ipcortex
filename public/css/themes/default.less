@@ -1,34 +1,34 @@
 /*
  * The main interface color for Icinga
  * Used for:
- *  - Header background
- *  - Links and buttons
- *  - Highlighting
+ *	- Header background
+ *	- Links and buttons
+ *	- Highlighting
  */
 @icinga-blue: #1f9cf5;
 
 #login {
-  background-image: url('../img/ipcortex/swanbourne.jpg');
+	background-image: url('../img/ipcortex/swanbourne.jpg');
 
-  input[type=submit] {
-    background-color: @icinga-blue;
-  }
+	input[type=submit] {
+		background-color: @icinga-blue;
+	}
+	.logo-wrapper {
+		top: 3em;
+	}
 }
 
-#logo-wrapper {
-	top: 3em;
-}
 
 /*
  * Logo display on login page
  */
 #icinga-logo {
-  background-image: url('../img/ipcortex/logo-invert.svg');
+	background-image: url('../img/ipcortex/logo-invert.svg');
 
-  &.invert {
-    // The logo shown on white background (DEFAULT)
-    background-image: url('../img/ipcortex/logo.svg');
-  }
+	&.invert {
+		// The logo shown on white background (DEFAULT)
+		background-image: url('../img/ipcortex/logo.svg');
+	}
 }
 
 /*
@@ -36,7 +36,7 @@
  * Adjusting the padding here to have a larger logo
  */
 #header-logo-container {
-  padding: 1em;
+	padding: 1em;
 }
 
 /*
@@ -45,11 +45,11 @@
  * Background below is @icinga-blue
  */
 #header-logo {
-  background-image: url('../img/ipcortex/logo-invert.svg');
+	background-image: url('../img/ipcortex/logo-invert.svg');
 }
 
 #layout:not(.minimal-layout).sidebar-collapsed #header-logo {
-//  background-image: url('../img/company/logo-compact.svg');
+//	background-image: url('../img/company/logo-compact.svg');
 }
 
 #social {
